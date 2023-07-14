@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-scripts = ['fluwog.py', 'mein_scraper.py', 'mein_sender.py']
+scripts = ['altona.py', 'fluwog.py', 'mein_scraper.py', 'mein_sender.py']
 processes = []
 
 # Запуск всех скриптов
