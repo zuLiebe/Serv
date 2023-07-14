@@ -15,13 +15,15 @@ for script in scripts:
 while True:
     for process in processes:
         if process.poll() is not None:
-            # Скрипт завершился, завершаем все остальные процессы
-            for p in processes:
-                p.terminate()
+            # Скрипт завершился, перезапускаем его
+            print(f'Script {process.args} stopped. Restarting...')
+            new_process = subprocess.Popen(['python', process.args[1]])
+            processes.remove(process)
+            processes.append(new_process)
             stop_count += 1
-            print(f'Script {process.args} stopped')
 
     if stop_count == 0:
         print('All scripts running fine')
 
+    stop_count = 0  # Сброс счетчика остановленных скриптов
     time.sleep(25)
