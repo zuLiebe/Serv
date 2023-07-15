@@ -9,8 +9,8 @@ from urllib.parse import urljoin
 BASE_URL = 'https://www.vonovia.de'
 
 # Вставьте свой токен бота и ID чата
-bot_token = '1736081100:AAF2xjTtTjK5jNBVql-rU2bZe8NYcaMm_H4'
-chat_id = '-1001949522816'
+bot_token = '6187859381:AAGQaohroWL-bxwVVf32lLNtBF-WY61A6Js'
+chat_id = '-913675079'
 
 last_search_time = None
 status_message_id = None
