@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-scripts = ['altona.py', 'fluwog.py', 'mein_scraper.py', 'mein_sender.py']
+scripts = ['vonovia.py', 'altona.py', 'fluwog.py', 'mein_scraper.py', 'mein_sender.py']
 processes = []
 stop_count = 0
 
