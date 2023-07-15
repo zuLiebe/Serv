@@ -1,1 +1,30 @@
-[{"Objektnummer": "MO 2000/7209/35", "Netto-Kalt-Miete": "319,07 \u20ac", "Gesamtmiete": "571,11 \u20ac", "Zimmer": "1 1/2", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/17102/23", "Netto-Kalt-Miete": "419,88 \u20ac", "Gesamtmiete": "663,58 \u20ac", "Zimmer": "1 1/2", "Verf\u00fcgbar ab": "16.08.2023"}, {"Objektnummer": "MO 2000/5234/265", "Netto-Kalt-Miete": "477,77 \u20ac", "Gesamtmiete": "774,37 \u20ac", "Zimmer": "3", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/15013/135", "Netto-Kalt-Miete": "537,89 \u20ac", "Gesamtmiete": "830,14 \u20ac", "Zimmer": "2", "Verf\u00fcgbar ab": "01.08.2023", "Objektnummer": "MO 2000/7209/35", "Netto-Kalt-Miete": "319,07 \u20ac", "Gesamtmiete": "571,11 \u20ac", "Zimmer": "1 1/2", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/17102/23", "Netto-Kalt-Miete": "419,88 \u20ac", "Gesamtmiete": "663,58 \u20ac", "Zimmer": "1 1/2", "Verf\u00fcgbar ab": "16.08.2023"}, {"Objektnummer": "MO 2000/5234/265", "Netto-Kalt-Miete": "477,77 \u20ac", "Gesamtmiete": "774,37 \u20ac", "Zimmer": "3", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/15013/135", "Netto-Kalt-Miete": "537,89 \u20ac", "Gesamtmiete": "830,14 \u20ac", "Zimmer": "2", "Verf\u00fcgbar ab": "01.08.2023", "Objektnummer": "MO 2000/7155/28", "Netto-Kalt-Miete": "297,81 \u20ac", "Gesamtmiete": "431,61 \u20ac", "Zimmer": "1", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/7277/67", "Netto-Kalt-Miete": "356,77 \u20ac", "Gesamtmiete": "565,57 \u20ac", "Zimmer": "2", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/17102/23", "Netto-Kalt-Miete": "419,88 \u20ac", "Gesamtmiete": "663,58 \u20ac", "Zimmer": "1 1/2", "Verf\u00fcgbar ab": "16.08.2023"}, {"Objektnummer": "MO 2000/5234/265", "Netto-Kalt-Miete": "477,77 \u20ac", "Gesamtmiete": "774,37 \u20ac", "Zimmer": "3", "Verf\u00fcgbar ab": "01.08.2023"}, {"Objektnummer": "MO 2000/15013/135", "Netto-Kalt-Miete": "537,89 \u20ac", "Gesamtmiete": "830,14 \u20ac", "Zimmer": "2", "Verf\u00fcgbar ab": "01.08.2023"}]
+[
+    {
+        "Objektnummer": "MO 2000/7209/35",
+        "Netto-Kalt-Miete": "319,07 €",
+        "Gesamtmiete": "571,11 €",
+        "Zimmer": "1 1/2",
+        "Verfügbar ab": "01.08.2023"
+    },
+    {
+        "Objektnummer": "MO 2000/17102/23",
+        "Netto-Kalt-Miete": "419,88 €",
+        "Gesamtmiete": "663,58 €",
+        "Zimmer": "1 1/2",
+        "Verfügbar ab": "16.08.2023"
+    },
+    {
+        "Objektnummer": "MO 2000/5234/265",
+        "Netto-Kalt-Miete": "477,77 €",
+        "Gesamtmiete": "774,37 €",
+        "Zimmer": "3",
+        "Verfügbar ab": "01.08.2023"
+    },
+    {
+        "Objektnummer": "MO 2000/15013/135",
+        "Netto-Kalt-Miete": "537,89 €",
+        "Gesamtmiete": "830,14 €",
+        "Zimmer": "2",
+        "Verfügbar ab": "01.08.2023"
+    }
+]
