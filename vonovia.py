@@ -47,7 +47,7 @@ async def send_to_telegram(data):
 
     # Если нет новых объектов, изменяем сообщение с указанием времени последнего поиска
     else:
-        status = f"{last_search_time} жду vonovia.de "
+        status = f"{last_search_time} жду fluwog.de saga.hamburg altoba.de vonovia.de "
         if status_message_id:
             await edit_message(status)
         else:
