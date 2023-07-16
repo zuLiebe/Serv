@@ -19,7 +19,7 @@ async def send_to_telegram(data):
     global last_search_time, status_message_id
 
     # Чтение данных из файла
-    with open('data.json', 'r') as f:
+    with open('data_code1.json', 'r') as f:
         previous_data = json.load(f)
 
     # Загрузка ранее отправленных объектов
@@ -59,7 +59,7 @@ async def send_to_telegram(data):
 
 def load_sent_objects():
     try:
-        with open('sent_objects.json', 'r') as f:
+        with open('sent_objects_code1.json', 'r') as f:
             sent_objects = json.load(f)
     except FileNotFoundError:
         sent_objects = []
@@ -84,19 +84,19 @@ def format_message(objects):
 
 def save_sent_objects(data):
     sent_objects = [item['id'] for item in data]
-    with open('sent_objects.json', 'w') as f:
+    with open('sent_objects_code1.json', 'w') as f:
         json.dump(sent_objects, f)
 
 def save_message_id(message_id):
     global status_message_id
     status_message_id = message_id
-    with open('message_id.txt', 'w') as f:
+    with open('message_id_code1.txt', 'w') as f:
         f.write(str(message_id))
 
 def load_message_id():
     global status_message_id
     try:
-        with open('message_id.txt', 'r') as f:
+        with open('message_id_code1.txt', 'r') as f:
             status_message_id = int(f.read().strip())
     except FileNotFoundError:
         status_message_id = None
@@ -130,14 +130,14 @@ def scrape_website():
         data_list.append(data)
 
     # Сохранение данных в файл
-    with open('data.json', 'w') as f:
+    with open('data_code1.json', 'w') as f:
         json.dump(data_list, f)
 
     # Отправка данных в Telegram
     asyncio.create_task(send_to_telegram(data_list))
 
     # Запись результатов в лог
-    with open('log.txt', 'a') as log_file:
+    with open('log_code1.txt', 'a') as log_file:
         log_file.write(f'{time.strftime("%Y-%m-%d %H:%M:%S")} - Scraped {len(data_list)} listings\n')
 
 async def send_message(text):
