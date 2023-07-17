@@ -37,6 +37,7 @@ def scrape_website():
             'Gesamtmiete': gesamtmiete,
             'Zimmer': zimmer,
             'Verfügbar ab': verfugbar_ab,
+            'Link': absolute_link,
         }
 
         data_list.append(data)
