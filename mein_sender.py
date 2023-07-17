@@ -52,6 +52,7 @@ def format_message(objects):
         message += f"Gesamtmiete: {item['Gesamtmiete']}\n"
         message += f"Zimmer: {item['Zimmer']}\n"
         message += f"Verfügbar ab: {item['Verfügbar ab']}\n\n"
+        message += f"Link: {item['Link']}\n\n"
     return message.strip()
 
 def save_sent_objects(data):
